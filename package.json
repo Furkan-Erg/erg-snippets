@@ -1,8 +1,8 @@
 {
   "name": "erg-snippets",
   "displayName": "Erg Snippets",
-  "description": "This Extansion is for new graduated developers for the create quick boilerplate code for react to develop nice and good looking UI with Tailwind",
-  "version": "0.0.1",
+  "description": "This is snippets for React, Angular, Next, with both typescript and javascript supported snippets of common used components and pages with the help of tailwind styling",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.92.2"
   },
@@ -13,15 +13,15 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/js.snippets.code-snippets"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/jsx.snippets.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/tsx.snippets.code-snippets"
       }
     ]
   }

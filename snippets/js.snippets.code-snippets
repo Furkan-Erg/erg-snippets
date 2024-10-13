@@ -164,7 +164,8 @@
       "};",
       "",
       "export default Register;"
-    ]
+    ],
+    "description": "This will create a certain registration page for you"
   },
   "404 Page": {
     "prefix": "erg-404",
@@ -194,7 +195,8 @@
       "};",
       "",
       "export default NotFoundPage;"
-    ]
+    ],
+    "description": "This will create a 404 Not Found page for you"
   },
   "About Page": {
     "prefix": "erg-about",
@@ -231,7 +233,8 @@
       "};",
       "",
       "export default AboutUs;"
-    ]
+    ],
+    "description": "This will create an About Us page for you"
   },
   "Button": {
     "prefix": "erg-button",
@@ -246,7 +249,8 @@
       "    </button>",
       "  );",
       "};"
-    ]
+    ],
+    "description": "This will create a reusable button component"
   },
   "Search": {
     "prefix": "erg-search",
@@ -274,7 +278,8 @@
       "  );",
       "};",
       "export default Search;"
-    ]
+    ],
+    "description": "This will create a reusable search component"
   },
   "Search Select": {
     "prefix": "erg-search-select",
@@ -335,7 +340,8 @@
       "};",
       "",
       "export default SearchSelect;"
-    ]
+    ],
+    "description": "This will create a reusable search select component"
   },
   "Modal": {
     "prefix": "erg-modal",
@@ -403,6 +409,7 @@
       "};",
       "",
       "export default Modal;"
-    ]
+    ],
+    "description": "This will create a reusable modal component"
   }
 }
