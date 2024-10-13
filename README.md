@@ -1,65 +1,61 @@
-# erg-snippets README
+# Erg Snippets for VS Code
 
-This is the README for your extension "erg-snippets". After writing up a brief description, we recommend including the following sections.
+**Enhance your development experience with versatile snippets for React, Vue, Angular, Next and more!**
 
-## Features
+The **erg-snippets** extension for Visual Studio Code offers a comprehensive collection of snippets for JavaScript, TypeScript, and various popular frameworks. Whether you're working with React, Vue, Angular, or Next.js, this extension streamlines your workflow by providing quick access to commonly used component structures and patterns. With the Help of TailWind **Don't forget, all the classes are written with Tailwind CSS**
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![Use Extension With Angular](https://github.com/Furkan-Erg/erg-snippets/raw/main/images/angular.gif)
+![Use Extension With Next/React](https://github.com/Furkan-Erg/erg-snippets/raw/main/images/react.gif)
+![Use Extension With Vue](https://github.com/Furkan-Erg/erg-snippets/raw/main/images/vue.gif)
 
-For example if there is an image subfolder under your extension project workspace:
+## Supported Frameworks
 
-\!\[feature X\]\(images/feature-x.png\)
+- React (JSX and TSX)
+- Vue
+- Angular
+- Next.js
+- And more...
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+Type part of a snippet, press `Enter`, and watch it unfold into your code.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Alternatively, you can press `Ctrl` + `Space` (Windows, Linux) or `Cmd` + `Space` (macOS) to activate snippets from within the editor.
 
-## Extension Settings
+### Snippet Overview
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+| Snippet             | Purpose                                    |
+| ------------------- | ------------------------------------------ |
+| `erg-button`        | Creates a reusable button component        |
+| `erg-modal`         | Creates a reusable modal component         |
+| `erg-search`        | Creates a reusable search component        |
+| `erg-search-select` | Creates a reusable search select component |
+| `erg-404`           | Creates a 404 Not Found page               |
+| `erg-about`         | Creates an About Us page                   |
+| `erg-login`         | Creates a login page                       |
+| `erg-register`      | Creates a register page                    |
 
-For example:
+Feel free to explore more snippets as you work with different frameworks!
 
-This extension contributes the following settings:
+## Installation
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+1. Install Visual Studio Code 1.10.0 or higher.
+2. Launch Visual Studio Code.
+3. Open the command palette by pressing `Ctrl` + `Shift` + `P` (Windows, Linux) or `Cmd` + `Shift` + `P` (macOS).
+4. Select `Install Extension`.
+5. Search for **erg-snippets** and click install.
+6. Reload Visual Studio Code to activate the extension.
 
-## Known Issues
+## Contribution
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+We welcome contributions to enhance the functionality and usability of this extension. If you have suggestions or improvements, feel free to submit a pull request or open an issue.
 
-## Release Notes
+## Credits
 
-Users appreciate release notes as you update your extension.
+Thanks to everyone who contributed to making **erg-snippets** a reality!
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- Developed by [Furkan Ergüldürenler](https://github.com/Furkan-Erg)
 
 ---
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Happy coding!**
