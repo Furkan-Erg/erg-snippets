@@ -4,9 +4,9 @@
 
 The **erg-snippets** extension for Visual Studio Code offers a comprehensive collection of snippets for JavaScript, TypeScript, and various popular frameworks. Whether you're working with React, Vue, Angular, or Next.js, this extension streamlines your workflow by providing quick access to commonly used component structures and patterns. With the Help of TailWind **Don't forget, all the classes are written with Tailwind CSS**
 
-![Use Extension With Angular](https://github.com/Furkan-Erg/erg-snippets/raw/main/images/angular.gif)
-![Use Extension With Next/React](https://github.com/Furkan-Erg/erg-snippets/raw/main/images/react.gif)
-![Use Extension With Vue](https://github.com/Furkan-Erg/erg-snippets/raw/main/images/vue.gif)
+![Use Extension With Angular](https://raw.githubusercontent.com/Furkan-Erg/erg-snippets/refs/heads/master/raw/main/images/angular.gif)
+![Use Extension With Next/React](https://raw.githubusercontent.com/Furkan-Erg/erg-snippets/refs/heads/master/raw/main/images/react.gif)
+![Use Extension With Vue](https://raw.githubusercontent.com/Furkan-Erg/erg-snippets/refs/heads/master/raw/main/images/vue.gif)
 
 ## Supported Frameworks
 
