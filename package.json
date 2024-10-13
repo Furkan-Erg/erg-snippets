@@ -3,10 +3,11 @@
   "displayName": "Erg Snippets",
   "publisher": "Furkan-Erg",
   "description": "This is snippets for React, Angular, Next, with both typescript and javascript supported snippets of common used components and pages with the help of tailwind styling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.10.0"
   },
+  "icon": "icon.png",
   "categories": [
     "Snippets"
   ],
