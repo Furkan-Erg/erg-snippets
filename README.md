@@ -14,6 +14,7 @@ The **erg-snippets** extension for Visual Studio Code offers a comprehensive col
 - **Framework Agnostic Styling**: Works out of the box with any project setup
 - **TypeScript Support**: Full TypeScript support for React (TSX) and Vue components
 - **Modern Design**: Clean, professional UI components with hover effects and transitions
+- **20+ Components**: Comprehensive collection of commonly used UI components
 
 ## Supported Frameworks
 
@@ -29,20 +30,94 @@ Type part of a snippet, press `Enter`, and watch it unfold into your code.
 
 Alternatively, you can press `Ctrl` + `Space` (Windows, Linux) or `Cmd` + `Space` (macOS) to activate snippets from within the editor.
 
-### Snippet Overview
+## Available Snippets
 
-| Snippet             | Purpose                                    |
-| ------------------- | ------------------------------------------ |
-| `erg-button`        | Creates a reusable button component        |
-| `erg-modal`         | Creates a reusable modal component         |
-| `erg-search`        | Creates a reusable search component        |
-| `erg-search-select` | Creates a reusable search select component |
-| `erg-404`           | Creates a 404 Not Found page               |
-| `erg-about`         | Creates an About Us page                   |
-| `erg-login`         | Creates a login page                       |
-| `erg-register`      | Creates a register page                    |
+### Pages
 
-Feel free to explore more snippets as you work with different frameworks!
+| Snippet        | Purpose                              |
+| -------------- | ------------------------------------ |
+| `erg-login`    | Login page with form validation      |
+| `erg-register` | Registration page with validation    |
+| `erg-404`      | 404 Not Found page with navigation   |
+| `erg-about`    | About Us page with team section      |
+
+### UI Components
+
+| Snippet             | Purpose                                         |
+| ------------------- | ----------------------------------------------- |
+| `erg-button`        | Button with variants (primary, danger, etc.)    |
+| `erg-card`          | Card component with image and footer support    |
+| `erg-modal`         | Modal dialog with customizable footer           |
+| `erg-navbar`        | Responsive navbar with mobile menu              |
+| `erg-footer`        | Footer with multiple link sections              |
+| `erg-alert`         | Dismissible alert (info, success, warning, error) |
+| `erg-spinner`       | Loading spinner with customizable size          |
+| `erg-badge`         | Badge/tag with color variants                   |
+| `erg-avatar`        | Avatar with initials fallback and status        |
+
+### Data & Forms
+
+| Snippet             | Purpose                                         |
+| ------------------- | ----------------------------------------------- |
+| `erg-table`         | Sortable data table                             |
+| `erg-search`        | Search input with clear button                  |
+| `erg-search-select` | Searchable dropdown with keyboard navigation   |
+| `erg-tabs`          | Tab navigation component                        |
+| `erg-pagination`    | Pagination with ellipsis                        |
+| `erg-accordion`     | Collapsible accordion sections                  |
+| `erg-toast`         | Toast notification system with context          |
+
+## Component Examples
+
+### Button Variants
+
+```jsx
+<Button text="Primary" variant="primary" />
+<Button text="Danger" variant="danger" />
+<Button text="Success" variant="success" size="large" />
+<Button text="Outline" variant="outline" />
+```
+
+### Card with Image
+
+```jsx
+<Card
+  title="Card Title"
+  description="Card description goes here"
+  image="https://via.placeholder.com/400x200"
+  hoverable
+  footer={<button>Learn More</button>}
+/>
+```
+
+### Table with Sorting
+
+```jsx
+const columns = [
+  { key: 'name', label: 'Name' },
+  { key: 'email', label: 'Email' },
+  { key: 'status', label: 'Status' },
+];
+
+const data = [
+  { name: 'John', email: 'john@example.com', status: 'Active' },
+];
+
+<Table columns={columns} data={data} sortable />
+```
+
+### Toast Notifications
+
+```jsx
+// Wrap your app with ToastProvider
+<ToastProvider>
+  <App />
+</ToastProvider>
+
+// Use the hook in any component
+const { addToast } = useToast();
+addToast('Success!', 'success');
+```
 
 ## Installation
 
@@ -63,9 +138,27 @@ Each framework uses the most appropriate styling method:
 
 This ensures your components work immediately without any additional configuration or dependencies.
 
+## Customization
+
+All snippets include placeholder values (marked with `${1:...}`) that you can quickly tab through and customize:
+
+- API endpoints
+- Company names
+- Team member names
+- Default text content
+
 ## Contribution
 
 We welcome contributions to enhance the functionality and usability of this extension. If you have suggestions or improvements, feel free to submit a pull request or open an issue.
+
+### Ideas for New Snippets
+
+- Sidebar navigation
+- Dropdown menu
+- Tooltip component
+- Progress bar
+- File upload
+- Date picker
 
 ## Credits
 

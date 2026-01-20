@@ -3,7 +3,7 @@
   "displayName": "Erg Snippets",
   "publisher": "Furkan-Erg",
   "description": "Code snippets for React, Angular, Vue, and Next.js with both TypeScript and JavaScript support. Includes commonly used components and pages with built-in styling - no external CSS frameworks required",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "engines": {
     "vscode": "^1.10.0"
   },
